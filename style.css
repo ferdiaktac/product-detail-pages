@@ -1055,10 +1055,6 @@
   display: block;
 }
 
-.tc-product-mobile-bottom {
-  display: none !important;
-}
-
 @media (max-width: 1148px) {
   .tc-same-day-delivery-products {
     padding: 0;
@@ -1207,5 +1203,8 @@
   }
   .tc-product-favorite-button-wrapper.mobile {
     display: block;
+  }
+  .tc-product-mobile-bottom {
+    display: none !important;
   }
 }
