@@ -1204,7 +1204,4 @@
   .tc-product-favorite-button-wrapper.mobile {
     display: block;
   }
-  .tc-product-mobile-bottom {
-    display: none !important;
-  }
 }
