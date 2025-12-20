@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Adres Seçildi</title>
+    <!-- Taze Cicek CSS -->
+    <link
+      rel="stylesheet"
+      href="https://www.tazecicek.com/assets/bundle.css?v=1750"
+    />
+    <link
+      rel="stylesheet"
+      href="https://www.tazecicek.com/assets/newmenu/css/style.css?v=1750"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body style="margin-top: 48px; margin-bottom: 100px">
+    <div class="urunmain">
+      <div class="container">
+        <div class="tc-product-page">
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <img src="tc-images-product-page/product-img.png" />
+              <div class="tc-product-favorite-button-wrapper mobile">
+                <div class="tc-product-favorite-button">
+                  <img
+                    src="tc-images-product-page/tc-favorite-icon-active.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- Right Block -->
+            <div class="col-md-6 col-sm-6" id="sagblokana">
+              <div class="tc-product-details">
+                <div class="tc-product-title">
+                  <h1>Blushing Pink Mirage</h1>
+                </div>
+                <!-- Price -->
+                <div class="tc-product-price-section">
+                  <div class="tc-price">
+                    <div class="tc-discount-percentage">32%</div>
+                    <div class="tc-product-price-old">
+                      2019<span>,00 TL</span>
+                    </div>
+                    <div class="tc-product-price-new">
+                      1385<span>,00 TL</span>
+                    </div>
+                  </div>
+                  <div class="tc-delivery-label">Ücretsiz Teslimat</div>
+                </div>
+                <div class="tc-product-destination-wrapper">
+                  <div class="tc-product-destination-section">
+                    <!-- Destination Input Selected -->
+                    <div class="tc-product-destination">
+                      <img
+                        width="24"
+                        height="24"
+                        src="/tc-images-product-page/destination.svg"
+                      />
+                      <input
+                        name="destination"
+                        type="text"
+                        value="Kavacık Mahallesi, Otağtepe Caddesi, No:34/1B, Beykoz/İstanbul"
+                        class="form-control tc-destination-on"
+                        placeholder="Mahalleyi, okul, hastane vb. yazın"
+                        autocomplete="off"
+                      />
+                      <input
+                        type="image"
+                        name="tc-destination-close"
+                        class="tc-destination-close"
+                        src="/tc-images-product-page/tc-close.svg"
+                      />
+                    </div>
+
+                    <!-- Date Selection -->
+                    <div class="tc-dates">
+                      <div class="tc-date-wrapper">
+                        <div
+                          class="tc-date selected"
+                          data-bugun="Bugün"
+                          data-tarih="19.12.2025"
+                          data-haftagun="Friday"
+                        >
+                          <div class="tc-date-date">29 Aralık</div>
+                          <div class="tc-date-day">Bugün</div>
+                        </div>
+
+                        <!-- Time Selection Desktop -->
+                        <div class="tc-time">
+                          <div class="tc-time-dropdown">
+                            <select class="tc-time-select" id="tc-time-select">
+                              <option value="10:00-13:00" selected>
+                                Saat Seçiniz
+                              </option>
+                              <option value="10:00-13:00">10:00-13:00</option>
+                              <option value="13:00-16:00">13:00-16:00</option>
+                              <option value="16:00-19:00">16:00-19:00</option>
+                              <option value="19:00-22:00">19:00-22:00</option>
+                              <option value="09:00-12:00">09:00-12:00</option>
+                              <option value="12:00-15:00">12:00-15:00</option>
+                              <option value="15:00-18:00">15:00-18:00</option>
+                              <option value="18:00-21:00">18:00-21:00</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tc-date-wrapper">
+                        <div
+                          class="tc-date"
+                          data-tarih="19.12.2025"
+                          data-haftagun="Friday"
+                        >
+                          <div class="tc-date-date">30 Aralık</div>
+                          <div class="tc-date-day">Yarın</div>
+                        </div>
+                      </div>
+                      <div class="tc-date-wrapper">
+                        <div
+                          class="tc-date custom-date-icon"
+                          data-tarih="19.12.2025"
+                          data-haftagun="Friday"
+                        >
+                          <img
+                            width="36"
+                            height="36"
+                            src="tc-images-product-page/tc-yilbasi-icon.png"
+                          />
+                          <div class="tc-date-day">Yılbaşı</div>
+                        </div>
+                      </div>
+                      <div class="tc-date-wrapper">
+                        <div
+                          class="tc-date"
+                          data-tarih="19.12.2025"
+                          data-haftagun="Friday"
+                        >
+                          <img
+                            src="tc-images-product-page/tc-destination-icon.svg"
+                          />
+                          <div class="tc-date-day">Takvim</div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Time Selection Mobile -->
+                    <div class="tc-time-mobile">
+                      <div class="tc-time-mobile-item selected">
+                        10:00-13:00
+                      </div>
+                      <div class="tc-time-mobile-item">13:00-16:00</div>
+                      <div class="tc-time-mobile-item">16:00-19:00</div>
+                      <div class="tc-time-mobile-item">19:00-22:00</div>
+                      <div class="tc-time-mobile-item">09:00-12:00</div>
+                      <div class="tc-time-mobile-item">12:00-15:00</div>
+                      <div class="tc-time-mobile-item">15:00-18:00</div>
+                      <div class="tc-time-mobile-item">18:00-21:00</div>
+                    </div>
+                  </div>
+
+                  <!-- Fast Delivery Option -->
+                  <div class="tc-checkbox tc-fast-delivery-wrapper">
+                    <input
+                      type="checkbox"
+                      id="tc-fast-delivery"
+                      name="fast-delivery"
+                    />
+                    <label for="tc-fast-delivery"
+                      >60dk içinde teslimat<span>+79 TL</span></label
+                    >
+                  </div>
+
+                  <!-- Delivery Time Banner -->
+                  <div
+                    class="tc-delivery-time-banner"
+                    data-remaining-minutes="24"
+                  >
+                    <img
+                      src="tc-images-product-page/tc-clock.svg"
+                      class="tc-clock-icon"
+                    />
+                    <div class="tc-delivery-time-content">
+                      <div class="tc-delivery-time-header">
+                        <span class="tc-delivery-time-text"
+                          >22:00'a kadar teslimat için son 24 dakika</span
+                        >
+                      </div>
+                      <div class="tc-delivery-progress-wrapper">
+                        <div class="tc-delivery-progress-bar">
+                          <div class="tc-delivery-progress-fill"></div>
+                        </div>
+                      </div>
+                      <div class="tc-delivery-time-subtext">
+                        Siparişinizi 20:00'a kadar verin, bugün 22:00'a kadar
+                        teslim edelim.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Call to Actions -->
+                <div class="tc-product-action-wrapper">
+                  <!-- Buttons Desktop-->
+                  <div class="tc-product-button-wrapper">
+                    <button class="tc-product-button" type="button">
+                      Sipariş Ver
+                    </button>
+                    <div class="tc-product-favorite-button-wrapper">
+                      <div class="tc-product-favorite-button">
+                        <img
+                          src="tc-images-product-page/tc-favorite-icon-active.svg"
+                        />
+                        <!-- <img
+                          src="tc-images-product-page/tc-favorite-icon.svg"
+                        /> -->
+                      </div>
+                      <span>Bu Ürün<br />251057 Kişinin Favorisi</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Mobile Bottom Bar -->
+                <div class="tc-product-mobile-bottom">
+                  <div class="tc-price">
+                    <div class="tc-discount-percentage">32%</div>
+                    <div class="tc-bottom-price-wrapper">
+                      <div class="tc-product-price-old">
+                        2019<span>,00 TL</span>
+                      </div>
+                      <div class="tc-product-price-new">
+                        1385<span>,00 TL</span>
+                      </div>
+                      <div class="free-delivery-label-mobile">
+                        &amp; Ücretsiz Teslimat
+                      </div>
+                    </div>
+                  </div>
+                  <button class="tc-product-button" type="button" disabled>
+                    Sipariş Ver
+                  </button>
+                </div>
+
+                <!-- Visual Confirmation -->
+                <div class="tc-visual-confirmation">
+                  <img
+                    src="tc-images-product-page/tc-camera.svg"
+                    class="tc-camera-icon"
+                  />
+                  <div class="tc-visual-confirmation-content">
+                    Görsel Onayı ile Kontrol Sizde!
+                    <span
+                      >Siparişiniz teslimattan önce size gösterilir, onayınızı
+                      aldıktan sonra yola çıkar.</span
+                    >
+                  </div>
+                </div>
+
+                <!-- Info -->
+                <div class="tc-product-info-box">
+                  <img
+                    src="tc-images-product-page/tc-info.svg"
+                    class="tc-info-icon"
+                  />
+                  <div class="tc-product-info-box-content">
+                    Yukarıda verilen teslimat süreleri tahmini olup mevzuattaki
+                    yasal sürelerin aşılmaması koşuluyla sapmalar
+                    yaşanabilmektedir.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="product-detail.js"></script>
+  </body>
+</html>
