@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
 .tc-product-details {
   display: flex;
   width: 100%;
@@ -396,7 +402,9 @@
   border: 1px solid rgba(17, 17, 17, 0.05) !important;
   background: #ffffff !important;
   flex-shrink: 0;
-  transition: background-color 0.2s, border-color 0.2s;
+  transition:
+    background-color 0.2s,
+    border-color 0.2s;
 }
 
 .tc-checkbox input[type="checkbox"]:checked + label::before {
@@ -592,7 +600,9 @@
   border-radius: 12px;
   border: 1px solid #d1fae5;
   background: #ecfdf5;
-  transition: background-color 0.2s ease, border-color 0.2s ease;
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease;
 }
 
 .tc-shipment-delivery-label span {
